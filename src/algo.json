@@ -1,0 +1,61 @@
+{
+  "results": [{
+      "name": "Rotational Cipher",
+      "functionName": "rotationalCipher",
+      "args": "Zebra-493,3",
+      "template": "/src/files/rotational-cipher.html"
+    },
+    {
+      "name": "Contiguous Subarrays",
+      "functionName": "countSubarrays",
+      "args": {
+        "param1": [3, 4, 1, 6, 2]
+      },
+      "template": "/src/files/contiguous-subarrays.html"
+    },
+    {
+      "name": "Pair Sums",
+      "functionName": "pairSums",
+      "args": {
+        "param1": [1, 5, 3, 3, 3],
+        "param2": 6
+      },
+      "template": "/src/files/pair-sums.html"
+    },
+    {
+      "name": "Reverse to Make Equal",
+      "functionName": "areTheyEqual",
+      "args": {
+        "param1": [1, 2, 3, 4],
+        "param2": [1, 4, 3, 2]
+      },
+      "template": "/src/files/rev-arr-equal.html"
+    },
+    {
+      "name": "Passing Yearbooks",
+      "functionName": "findSignatureCounts",
+      "args": {
+        "param1": [2, 1]
+      },
+      "template": "/src/files/passing-yearbooks.html"
+    },
+    {
+      "name": "Matching Pairs",
+      "functionName": "matchingPairs",
+      "args": {
+        "param1": "abcd",
+        "param2": "adcb"
+      },
+      "template": "/src/files/matching-pairs.html"
+    },
+    {
+      "name": "Minimum Length Substrings",
+      "functionName": "minLengthSubstring",
+      "args": {
+        "param1": "cdbefebce",
+        "param2": "fd"
+      },
+      "template": "/src/files/min-length-substring.html"
+    }
+  ]
+}

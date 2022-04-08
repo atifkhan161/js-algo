@@ -1,0 +1,127 @@
+<div class="m4mgb0je mvrxh9b9 eomjhxnb bxg69k41 _3qn7 _61-0 _2fyh _3qnf"><span
+    class="l5k26z4s oc0wfnly jbfqbifr kzv4m4hs n54jr4lg svz86pwt a53abz89">Pair Sums</span>
+  <div class="il9o7kdb _3qn7 _61-0 _2fyh _3qng">
+    <div class="_8z_7"><span
+        style="font-family: Roboto, Arial, sans-serif; font-size: 0.875rem; line-height: 1.42857; letter-spacing: normal; font-weight: normal; overflow-wrap: break-word; text-align: left; color: rgba(0, 0, 0, 0.85);">
+        <div class="_5rp7">
+          <div class="_5rpb">
+            <div class=" _5rpu" contenteditable="false" spellcheck="false"
+              style="outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;">
+              <div data-contents="true">
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="27t2j-0-0">
+                  <div data-offset-key="27t2j-0-0" class="_1mf _1mj"><span data-offset-key="27t2j-0-0"><span
+                        data-text="true">Given a list of </span></span><span data-offset-key="27t2j-0-1"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">n</span></span><span data-offset-key="27t2j-0-2"><span data-text="true">
+                        integers </span></span><span data-offset-key="27t2j-0-3"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">arr[0..(n-1)]</span></span><span data-offset-key="27t2j-0-4"><span
+                        data-text="true">, determine the number of different pairs of elements within it which sum to
+                      </span></span><span data-offset-key="27t2j-0-5"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">k</span></span><span data-offset-key="27t2j-0-6"><span
+                        data-text="true">.</span></span></div>
+                </div>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="32ipm-0-0">
+                  <div data-offset-key="32ipm-0-0" class="_1mf _1mj"><span data-offset-key="32ipm-0-0"><span
+                        data-text="true">If an integer appears in the list multiple times, each copy is considered to be
+                        different; that is, two pairs are considered different if one pair includes at least one array
+                        index which the other doesn't, even if they include the same values.</span></span></div>
+                </div>
+                <h1 class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="4vp6s-0-0">
+                  <div data-offset-key="4vp6s-0-0" class="_1mf _1mj"><span data-offset-key="4vp6s-0-0"><span
+                        data-text="true">Signature</span></span></div>
+                </h1>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="5sei6-0-0">
+                  <div data-offset-key="5sei6-0-0" class="_1mf _1mj"><span data-offset-key="5sei6-0-0"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">int
+                        numberOfWays(int[] arr, int k)</span></span></div>
+                </div>
+                <h1 class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="f2ahp-0-0">
+                  <div data-offset-key="f2ahp-0-0" class="_1mf _1mj"><span data-offset-key="f2ahp-0-0"><span
+                        data-text="true">Input</span></span></div>
+                </h1>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="c5gaq-0-0">
+                  <div data-offset-key="c5gaq-0-0" class="_1mf _1mj"><span data-offset-key="c5gaq-0-0"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">n</span></span><span data-offset-key="c5gaq-0-1"><span data-text="true"> is in
+                        the range [1, 100,000].
+                        Each value </span></span><span data-offset-key="c5gaq-0-2"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">arr[i]</span></span><span data-offset-key="c5gaq-0-3"><span data-text="true">
+                        is in the range [1, 1,000,000,000].
+                      </span></span><span data-offset-key="c5gaq-0-4"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">k</span></span><span data-offset-key="c5gaq-0-5"><span data-text="true"> is in
+                        the range [1, 1,000,000,000].</span></span></div>
+                </div>
+                <h1 class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="8vp9v-0-0">
+                  <div data-offset-key="8vp9v-0-0" class="_1mf _1mj"><span data-offset-key="8vp9v-0-0"><span
+                        data-text="true">Output</span></span></div>
+                </h1>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="dmsen-0-0">
+                  <div data-offset-key="dmsen-0-0" class="_1mf _1mj"><span data-offset-key="dmsen-0-0"><span
+                        data-text="true">Return the number of different pairs of elements which sum to
+                      </span></span><span data-offset-key="dmsen-0-1"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">k</span></span><span data-offset-key="dmsen-0-2"><span
+                        data-text="true">.</span></span></div>
+                </div>
+                <h1 class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="fvi53-0-0">
+                  <div data-offset-key="fvi53-0-0" class="_1mf _1mj"><span data-offset-key="fvi53-0-0"><span
+                        data-text="true">Example 1</span></span></div>
+                </h1>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="9e7c1-0-0">
+                  <div data-offset-key="9e7c1-0-0" class="_1mf _1mj"><span data-offset-key="9e7c1-0-0"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">n</span></span><span data-offset-key="9e7c1-0-1"><span data-text="true"> = 5
+                      </span></span><span data-offset-key="9e7c1-0-2"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">k</span></span><span data-offset-key="9e7c1-0-3"><span data-text="true"> = 6
+                      </span></span><span data-offset-key="9e7c1-0-4"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">arr</span></span><span data-offset-key="9e7c1-0-5"><span data-text="true"> =
+                        [1, 2, 3, 4, 3]
+                      </span></span><span data-offset-key="9e7c1-0-6"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">output</span></span><span data-offset-key="9e7c1-0-7"><span data-text="true"> =
+                        2</span></span></div>
+                </div>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="9c0fv-0-0">
+                  <div data-offset-key="9c0fv-0-0" class="_1mf _1mj"><span data-offset-key="9c0fv-0-0"><span
+                        data-text="true">The valid pairs are 2+4 and 3+3.</span></span></div>
+                </div>
+                <h1 class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="b60e3-0-0">
+                  <div data-offset-key="b60e3-0-0" class="_1mf _1mj"><span data-offset-key="b60e3-0-0"><span
+                        data-text="true">Example 2</span></span></div>
+                </h1>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="ckoaf-0-0">
+                  <div data-offset-key="ckoaf-0-0" class="_1mf _1mj"><span data-offset-key="ckoaf-0-0"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">n</span></span><span data-offset-key="ckoaf-0-1"><span data-text="true"> = 5
+                      </span></span><span data-offset-key="ckoaf-0-2"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">k</span></span><span data-offset-key="ckoaf-0-3"><span data-text="true"> = 6
+                      </span></span><span data-offset-key="ckoaf-0-4"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">arr</span></span><span data-offset-key="ckoaf-0-5"><span data-text="true"> =
+                        [1, 5, 3, 3, 3]
+                      </span></span><span data-offset-key="ckoaf-0-6"
+                      style="font-family: monospace; overflow-wrap: break-word;"><span
+                        data-text="true">output</span></span><span data-offset-key="ckoaf-0-7"><span data-text="true"> =
+                        4</span></span></div>
+                </div>
+                <div class="_8z_j" data-block="true" data-editor="5jrma" data-offset-key="c1nob-0-0">
+                  <div data-offset-key="c1nob-0-0" class="_1mf _1mj"><span data-offset-key="c1nob-0-0"><span
+                        data-text="true">There's one valid pair 1+5, and three different valid pairs 3+3 (the 3rd and
+                        4th elements, 3rd and 5th elements, and 4th and 5th elements).</span></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span></div><span class="l5k26z4s snfsxcfg jbfqbifr oysqpf8i n54jr4lg svz86pwt a53abz89"><a
+        class="qblnu75e d5rc5kzv iz6v9oso l5k26z4s oysqpf8i nakb0ctp svz86pwt aa8h9o0m haz1u6bd ippphs35 ol91lf0t pg3nr1hp gp6ucdfj n6ukeyzl"
+        href="#">Need hints?</a></span>
+  </div>
+</div>

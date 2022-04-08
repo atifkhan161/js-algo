@@ -1,0 +1,274 @@
+<div class="paneContent">
+  <div class="il9o7kdb aszw7eiz t4iqu75q ag5u6qx3"></div>
+  <div class="m4mgb0je mvrxh9b9 eomjhxnb bxg69k41 _3qn7 _61-0 _2fyh _3qnf"><span
+      class="l5k26z4s oc0wfnly jbfqbifr kzv4m4hs n54jr4lg svz86pwt a53abz89">Passing Yearbooks</span>
+    <div class="il9o7kdb _3qn7 _61-0 _2fyh _3qng">
+      <div class="_8z_7"><span
+          style="font-family: Roboto, Arial, sans-serif; font-size: 0.875rem; line-height: 1.42857; letter-spacing: normal; font-weight: normal; overflow-wrap: break-word; text-align: left; color: rgba(0, 0, 0, 0.85);">
+          <div class="_5rp7">
+            <div class="_5rpb">
+              <div class=" _5rpu" contenteditable="false" spellcheck="false"
+                style="outline: none; user-select: text; white-space: pre-wrap; overflow-wrap: break-word;">
+                <div data-contents="true">
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="1u6fd-0-0">
+                    <div data-offset-key="1u6fd-0-0" class="_1mf _1mj"><span data-offset-key="1u6fd-0-0"><span
+                          data-text="true">There are </span></span><span data-offset-key="1u6fd-0-1"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="1u6fd-0-2"><span data-text="true">
+                          students, numbered from 1 to </span></span><span data-offset-key="1u6fd-0-3"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="1u6fd-0-4"><span data-text="true">,
+                          each with their own yearbook. They would like to pass their yearbooks around and get them
+                          signed by other students.</span></span></div>
+                  </div>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="dg0bi-0-0">
+                    <div data-offset-key="dg0bi-0-0" class="_1mf _1mj"><span data-offset-key="dg0bi-0-0"><span
+                          data-text="true">You're given a list of </span></span><span data-offset-key="dg0bi-0-1"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="dg0bi-0-2"><span data-text="true">
+                          integers </span></span><span data-offset-key="dg0bi-0-3"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">arr[1..n]</span></span><span data-offset-key="dg0bi-0-4"><span
+                          data-text="true">, which is guaranteed to be a permutation of </span></span><span
+                        data-offset-key="dg0bi-0-5" style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">1..n</span></span><span data-offset-key="dg0bi-0-6"><span data-text="true">
+                          (in other words, it includes the integers from 1 to </span></span><span
+                        data-offset-key="dg0bi-0-7" style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="dg0bi-0-8"><span data-text="true">
+                          exactly once each, in some order). The meaning of this list is described below.</span></span>
+                    </div>
+                  </div>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="1pvjp-0-0">
+                    <div data-offset-key="1pvjp-0-0" class="_1mf _1mj"><span data-offset-key="1pvjp-0-0"><span
+                          data-text="true">Initially, each student is holding their own yearbook. The students will then
+                          repeat the following two steps each minute: Each student </span></span><span
+                        data-offset-key="1pvjp-0-1" style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">i</span></span><span data-offset-key="1pvjp-0-2"><span data-text="true"> will
+                          first sign the yearbook that they're currently holding (which may either belong to themselves
+                          or to another student), and then they'll pass it to student </span></span><span
+                        data-offset-key="1pvjp-0-3" style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">arr[i-1]</span></span><span data-offset-key="1pvjp-0-4"><span
+                          data-text="true">. It's possible that </span></span><span data-offset-key="1pvjp-0-5"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">arr[i-1] =
+                          i</span></span><span data-offset-key="1pvjp-0-6"><span data-text="true"> for any given
+                        </span></span><span data-offset-key="1pvjp-0-7"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">i</span></span><span data-offset-key="1pvjp-0-8"><span data-text="true">, in
+                          which case student </span></span><span data-offset-key="1pvjp-0-9"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">i</span></span><span data-offset-key="1pvjp-0-10"><span data-text="true">
+                          will pass their yearbook back to themselves. Once a student has received their own yearbook
+                          back, they will hold on to it and no longer participate in the passing process.</span></span>
+                    </div>
+                  </div>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="7jqjj-0-0">
+                    <div data-offset-key="7jqjj-0-0" class="_1mf _1mj"><span data-offset-key="7jqjj-0-0"><span
+                          data-text="true">It's guaranteed that, for any possible valid input, each student will
+                          eventually receive their own yearbook back and will never end up holding more than one
+                          yearbook at a time.</span></span></div>
+                  </div>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="c4gfv-0-0">
+                    <div data-offset-key="c4gfv-0-0" class="_1mf _1mj"><span data-offset-key="c4gfv-0-0"><span
+                          data-text="true">You must compute a list of </span></span><span data-offset-key="c4gfv-0-1"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="c4gfv-0-2"><span data-text="true">
+                          integers </span></span><span data-offset-key="c4gfv-0-3"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">output</span></span><span data-offset-key="c4gfv-0-4"><span
+                          data-text="true">, whose element at </span></span><span data-offset-key="c4gfv-0-5"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">i-1</span></span><span data-offset-key="c4gfv-0-6"><span data-text="true"> is
+                          equal to the number of signatures that will be present in student </span></span><span
+                        data-offset-key="c4gfv-0-7" style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">i</span></span><span data-offset-key="c4gfv-0-8"><span data-text="true">'s
+                          yearbook once they receive it back.</span></span></div>
+                  </div>
+                  <h1 class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="g3o7-0-0">
+                    <div data-offset-key="g3o7-0-0" class="_1mf _1mj"><span data-offset-key="g3o7-0-0"><span
+                          data-text="true">Signature</span></span></div>
+                  </h1>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="7uj3f-0-0">
+                    <div data-offset-key="7uj3f-0-0" class="_1mf _1mj"><span data-offset-key="7uj3f-0-0"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">int[]
+                          findSignatureCounts(int[] arr)</span></span></div>
+                  </div>
+                  <h1 class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="5d90m-0-0">
+                    <div data-offset-key="5d90m-0-0" class="_1mf _1mj"><span data-offset-key="5d90m-0-0"><span
+                          data-text="true">Input</span></span></div>
+                  </h1>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="6ghja-0-0">
+                    <div data-offset-key="6ghja-0-0" class="_1mf _1mj"><span data-offset-key="6ghja-0-0"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="6ghja-0-1"><span data-text="true"> is
+                          in the range [1, 100,000].
+                          Each value </span></span><span data-offset-key="6ghja-0-2"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">arr[i]</span></span><span data-offset-key="6ghja-0-3"><span data-text="true">
+                          is in the range [1, </span></span><span data-offset-key="6ghja-0-4"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="6ghja-0-5"><span data-text="true">],
+                          and all values in </span></span><span data-offset-key="6ghja-0-6"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">arr[i]</span></span><span data-offset-key="6ghja-0-7"><span data-text="true">
+                          are distinct.</span></span></div>
+                  </div>
+                  <h1 class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="6hbu6-0-0">
+                    <div data-offset-key="6hbu6-0-0" class="_1mf _1mj"><span data-offset-key="6hbu6-0-0"><span
+                          data-text="true">Output</span></span></div>
+                  </h1>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="4nvr6-0-0">
+                    <div data-offset-key="4nvr6-0-0" class="_1mf _1mj"><span data-offset-key="4nvr6-0-0"><span
+                          data-text="true">Return a list of </span></span><span data-offset-key="4nvr6-0-1"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="4nvr6-0-2"><span data-text="true">
+                          integers </span></span><span data-offset-key="4nvr6-0-3"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">output</span></span><span data-offset-key="4nvr6-0-4"><span
+                          data-text="true">, as described above.</span></span></div>
+                  </div>
+                  <h1 class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="6078i-0-0">
+                    <div data-offset-key="6078i-0-0" class="_1mf _1mj"><span data-offset-key="6078i-0-0"><span
+                          data-text="true">Example 1</span></span></div>
+                  </h1>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="2fa6k-0-0">
+                    <div data-offset-key="2fa6k-0-0" class="_1mf _1mj"><span data-offset-key="2fa6k-0-0"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="2fa6k-0-1"><span data-text="true"> = 2
+                        </span></span><span data-offset-key="2fa6k-0-2"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">arr</span></span><span data-offset-key="2fa6k-0-3"><span data-text="true"> =
+                          [2, 1]
+                        </span></span><span data-offset-key="2fa6k-0-4"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">output</span></span><span data-offset-key="2fa6k-0-5"><span data-text="true">
+                          = [2, 2]</span></span></div>
+                  </div>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="73brq-0-0">
+                    <div data-offset-key="73brq-0-0" class="_1mf _1mj"><span data-offset-key="73brq-0-0"><span
+                          data-text="true">Pass 1:</span></span></div>
+                  </div>
+                  <ul class="_1bv0" data-offset-key="48v2q-0-0">
+                    <li class="_8z_j _3kpz _3kq0 _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="48v2q-0-0">
+                      <div data-offset-key="48v2q-0-0" class="_1mf _1mj"><span data-offset-key="48v2q-0-0"><span
+                            data-text="true">Student 1 signs their own yearbook. Then they pass the book to the student
+                            at </span></span><span data-offset-key="48v2q-0-1"
+                          style="font-family: monospace; overflow-wrap: break-word;"><span
+                            data-text="true">arr[0]</span></span><span data-offset-key="48v2q-0-2"><span
+                            data-text="true">, which is Student 2.</span></span></div>
+                    </li>
+                    <li class="_8z_j _3kpz _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="f1iqt-0-0">
+                      <div data-offset-key="f1iqt-0-0" class="_1mf _1mj"><span data-offset-key="f1iqt-0-0"><span
+                            data-text="true">Student 2 signs their own yearbook. Then they pass the book to the student
+                            at </span></span><span data-offset-key="f1iqt-0-1"
+                          style="font-family: monospace; overflow-wrap: break-word;"><span
+                            data-text="true">arr[1]</span></span><span data-offset-key="f1iqt-0-2"><span
+                            data-text="true">, which is Student 1.</span></span></div>
+                    </li>
+                  </ul>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="9i5ns-0-0">
+                    <div data-offset-key="9i5ns-0-0" class="_1mf _1mj"><span data-offset-key="9i5ns-0-0"><span
+                          data-text="true">Pass 2:</span></span></div>
+                  </div>
+                  <ul class="_1bv0" data-offset-key="4md0a-0-0">
+                    <li class="_8z_j _3kpz _3kq0 _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="4md0a-0-0">
+                      <div data-offset-key="4md0a-0-0" class="_1mf _1mj"><span data-offset-key="4md0a-0-0"><span
+                            data-text="true">Student 1 signs Student 2's yearbook. Then they pass it to the student at
+                          </span></span><span data-offset-key="4md0a-0-1"
+                          style="font-family: monospace; overflow-wrap: break-word;"><span
+                            data-text="true">arr[0]</span></span><span data-offset-key="4md0a-0-2"><span
+                            data-text="true">, which is Student 2.</span></span></div>
+                    </li>
+                    <li class="_8z_j _3kpz _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="3rcp7-0-0">
+                      <div data-offset-key="3rcp7-0-0" class="_1mf _1mj"><span data-offset-key="3rcp7-0-0"><span
+                            data-text="true">Student 2 signs Student 1's yearbook. Then they pass it to the student at
+                          </span></span><span data-offset-key="3rcp7-0-1"
+                          style="font-family: monospace; overflow-wrap: break-word;"><span
+                            data-text="true">arr[1]</span></span><span data-offset-key="3rcp7-0-2"><span
+                            data-text="true">, which is Student 1.</span></span></div>
+                    </li>
+                  </ul>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="6r330-0-0">
+                    <div data-offset-key="6r330-0-0" class="_1mf _1mj"><span data-offset-key="6r330-0-0"><span
+                          data-text="true">Pass 3:</span></span></div>
+                  </div>
+                  <ul class="_1bv0" data-offset-key="h64m-0-0">
+                    <li class="_8z_j _3kpz _3kq0 _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="h64m-0-0">
+                      <div data-offset-key="h64m-0-0" class="_1mf _1mj"><span data-offset-key="h64m-0-0"><span
+                            data-text="true">Both students now hold their own yearbook, so the process is
+                            complete.</span></span></div>
+                    </li>
+                  </ul>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="38vmq-0-0">
+                    <div data-offset-key="38vmq-0-0" class="_1mf _1mj"><span data-offset-key="38vmq-0-0"><span
+                          data-text="true">Each student received 2 signatures.</span></span></div>
+                  </div>
+                  <h1 class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="eq1tl-0-0">
+                    <div data-offset-key="eq1tl-0-0" class="_1mf _1mj"><span data-offset-key="eq1tl-0-0"><span
+                          data-text="true">Example 2</span></span></div>
+                  </h1>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="2m1ld-0-0">
+                    <div data-offset-key="2m1ld-0-0" class="_1mf _1mj"><span data-offset-key="2m1ld-0-0"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">n</span></span><span data-offset-key="2m1ld-0-1"><span data-text="true"> = 2
+                        </span></span><span data-offset-key="2m1ld-0-2"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">arr</span></span><span data-offset-key="2m1ld-0-3"><span data-text="true"> =
+                          [1, 2]
+                        </span></span><span data-offset-key="2m1ld-0-4"
+                        style="font-family: monospace; overflow-wrap: break-word;"><span
+                          data-text="true">output</span></span><span data-offset-key="2m1ld-0-5"><span data-text="true">
+                          = [1, 1]</span></span></div>
+                  </div>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="c1nhk-0-0">
+                    <div data-offset-key="c1nhk-0-0" class="_1mf _1mj"><span data-offset-key="c1nhk-0-0"><span
+                          data-text="true">Pass 1:</span></span></div>
+                  </div>
+                  <ul class="_1bv0" data-offset-key="81om6-0-0">
+                    <li class="_8z_j _3kpz _3kq0 _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="81om6-0-0">
+                      <div data-offset-key="81om6-0-0" class="_1mf _1mj"><span data-offset-key="81om6-0-0"><span
+                            data-text="true">Student 1 signs their own yearbook. Then they pass the book to the student
+                            at </span></span><span data-offset-key="81om6-0-1"
+                          style="font-family: monospace; overflow-wrap: break-word;"><span
+                            data-text="true">arr[0]</span></span><span data-offset-key="81om6-0-2"><span
+                            data-text="true">, which is themself, Student 1.</span></span></div>
+                    </li>
+                    <li class="_8z_j _3kpz _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="3qcgm-0-0">
+                      <div data-offset-key="3qcgm-0-0" class="_1mf _1mj"><span data-offset-key="3qcgm-0-0"><span
+                            data-text="true">Student 2 signs their own yearbook. Then they pass the book to the student
+                            at </span></span><span data-offset-key="3qcgm-0-1"
+                          style="font-family: monospace; overflow-wrap: break-word;"><span
+                            data-text="true">arr[1]</span></span><span data-offset-key="3qcgm-0-2"><span
+                            data-text="true">, which is themself, Student 2.</span></span></div>
+                    </li>
+                  </ul>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="abvkg-0-0">
+                    <div data-offset-key="abvkg-0-0" class="_1mf _1mj"><span data-offset-key="abvkg-0-0"><span
+                          data-text="true">Pass 2:</span></span></div>
+                  </div>
+                  <ul class="_1bv0" data-offset-key="kl3-0-0">
+                    <li class="_8z_j _3kpz _3kq0 _3kq1 _3kq6" data-block="true" data-editor="4c5ve"
+                      data-offset-key="kl3-0-0">
+                      <div data-offset-key="kl3-0-0" class="_1mf _1mj"><span data-offset-key="kl3-0-0"><span
+                            data-text="true">Both students now hold their own yearbook, so the process is
+                            complete.</span></span></div>
+                    </li>
+                  </ul>
+                  <div class="_8z_j" data-block="true" data-editor="4c5ve" data-offset-key="3495n-0-0">
+                    <div data-offset-key="3495n-0-0" class="_1mf _1mj"><span data-offset-key="3495n-0-0"><span
+                          data-text="true">Each student received 1 signature.</span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span></div>
+    </div>
+  </div>
+</div>

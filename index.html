@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>This is the title of the webpage!</title>
+  <link rel="stylesheet" href="/src/styles.css">
+  <script defer src="src/index.js" charset="utf-8"></script>
+  <script defer src="src/files/rotational-cipher.js" charset="utf-8"></script>
+  <script defer src="src/files/contiguous-subarrays.js" charset="utf-8"></script>
+  <script defer src="src/files/pair-sums.js" charset="utf-8"></script>
+  <script defer src="src/files/rev-arr-equal.js" charset="utf-8"></script>
+  <script defer src="src/files/passing-yearbooks.js" charset="utf-8"></script>
+  <script defer src="src/files/matching-pairs.js" charset="utf-8"></script>
+  <script defer src="src/files/min-length-substring.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="result-container">
+      <ul id="results">
+      </ul>
+    </div>
+    <div id="description" class="description">
+    </div>
+    <div id="btn">
+      <input type="text" id="params">
+      <button id="run">Run</button>
+      <span> Result :</span>
+      <span id="returnVal"></span>
+    </div>
+  </div>
+  <template id="algo-template">
+    <li class="li-body">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <div class="name"></div>
+            <div class="description"></div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </template>
+</body>
+
+</html>

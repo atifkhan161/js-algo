@@ -1,0 +1,100 @@
+<div data-contents="true">
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="bes66-0-0">
+    <div data-offset-key="bes66-0-0" class="_1mf _1mj"><span data-offset-key="bes66-0-0"><span data-text="true">One
+          simple way to encrypt a string is to "rotate" every alphanumeric character by a certain amount. Rotating a
+          character means replacing it with another character that is a certain number of steps away in normal
+          alphabetic or numerical order.</span></span></div>
+  </div>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="160uk-0-0">
+    <div data-offset-key="160uk-0-0" class="_1mf _1mj"><span data-offset-key="160uk-0-0"><span data-text="true">For
+          example, if the string </span></span><span data-offset-key="160uk-0-1"
+        style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">"Zebra-493?"</span></span><span data-offset-key="160uk-0-2"><span data-text="true"> is
+          rotated 3 places, the resulting string is </span></span><span data-offset-key="160uk-0-3"
+        style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">"Cheud-726?"</span></span><span data-offset-key="160uk-0-4"><span data-text="true">. Every
+          alphabetic character is replaced with the character 3 letters higher (wrapping around from Z to A), and every
+          numeric character replaced with the character 3 digits higher (wrapping around from 9 to 0). Note that the
+          non-alphanumeric characters remain unchanged.</span></span></div>
+  </div>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="3aq6v-0-0">
+    <div data-offset-key="3aq6v-0-0" class="_1mf _1mj"><span data-offset-key="3aq6v-0-0"><span data-text="true">Given a
+          string and a rotation factor, return an encrypted string.</span></span></div>
+  </div>
+  <h1 class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="aq7v7-0-0">
+    <div data-offset-key="aq7v7-0-0" class="_1mf _1mj"><span data-offset-key="aq7v7-0-0"><span
+          data-text="true">Signature</span></span></div>
+  </h1>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="5ctd1-0-0">
+    <div data-offset-key="5ctd1-0-0" class="_1mf _1mj"><span data-offset-key="5ctd1-0-0"
+        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">string rotationalCipher(string
+          input, int rotationFactor)</span></span></div>
+  </div>
+  <h1 class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="2f2ff-0-0">
+    <div data-offset-key="2f2ff-0-0" class="_1mf _1mj"><span data-offset-key="2f2ff-0-0"><span
+          data-text="true">Input</span></span></div>
+  </h1>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="3bibu-0-0">
+    <div data-offset-key="3bibu-0-0" class="_1mf _1mj"><span data-offset-key="3bibu-0-0"><span data-text="true">1 &lt;=
+        </span></span><span data-offset-key="3bibu-0-1" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">|input|</span></span><span data-offset-key="3bibu-0-2"><span data-text="true"> &lt;=
+          1,000,000
+          0 &lt;= </span></span><span data-offset-key="3bibu-0-3"
+        style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">rotationFactor</span></span><span data-offset-key="3bibu-0-4"><span data-text="true"> &lt;=
+          1,000,000</span></span></div>
+  </div>
+  <h1 class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="47vc-0-0">
+    <div data-offset-key="47vc-0-0" class="_1mf _1mj"><span data-offset-key="47vc-0-0"><span
+          data-text="true">Output</span></span></div>
+  </h1>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="b36o-0-0">
+    <div data-offset-key="b36o-0-0" class="_1mf _1mj"><span data-offset-key="b36o-0-0"><span data-text="true">Return the
+          result of rotating </span></span><span data-offset-key="b36o-0-1"
+        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">input</span></span><span
+        data-offset-key="b36o-0-2"><span data-text="true"> a number of times equal to </span></span><span
+        data-offset-key="b36o-0-3" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">rotationFactor</span></span><span data-offset-key="b36o-0-4"><span
+          data-text="true">.</span></span></div>
+  </div>
+  <h1 class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="58cba-0-0">
+    <div data-offset-key="58cba-0-0" class="_1mf _1mj"><span data-offset-key="58cba-0-0"><span data-text="true">Example
+          1</span></span></div>
+  </h1>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="fvspp-0-0">
+    <div data-offset-key="fvspp-0-0" class="_1mf _1mj"><span data-offset-key="fvspp-0-0"
+        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">input</span></span><span
+        data-offset-key="fvspp-0-1"><span data-text="true"> = </span></span><span data-offset-key="fvspp-0-2"
+        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">Zebra-493?</span></span><span
+        data-offset-key="fvspp-0-3"><span data-text="true">
+        </span></span><span data-offset-key="fvspp-0-4" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">rotationFactor</span></span><span data-offset-key="fvspp-0-5"><span data-text="true"> =
+        </span></span><span data-offset-key="fvspp-0-6" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">3</span></span><span data-offset-key="fvspp-0-7"><span data-text="true">
+        </span></span><span data-offset-key="fvspp-0-8" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">output</span></span><span data-offset-key="fvspp-0-9"><span data-text="true"> =
+        </span></span><span data-offset-key="fvspp-0-10"
+        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">Cheud-726?</span></span></div>
+  </div>
+  <h1 class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="bfkem-0-0">
+    <div data-offset-key="bfkem-0-0" class="_1mf _1mj"><span data-offset-key="bfkem-0-0"><span data-text="true">Example
+          2</span></span></div>
+  </h1>
+  <div class="_8z_j" data-block="true" data-editor="fdtm6" data-offset-key="2c10k-0-0">
+    <div data-offset-key="2c10k-0-0" class="_1mf _1mj"><span data-offset-key="2c10k-0-0"
+        style="font-family: monospace; overflow-wrap: break-word;"><span data-text="true">input</span></span><span
+        data-offset-key="2c10k-0-1"><span data-text="true"> = </span></span><span data-offset-key="2c10k-0-2"
+        style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">abcdefghijklmNOPQRSTUVWXYZ0123456789</span></span><span data-offset-key="2c10k-0-3"><span
+          data-text="true">
+        </span></span><span data-offset-key="2c10k-0-4" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">rotationFactor</span></span><span data-offset-key="2c10k-0-5"><span data-text="true"> =
+        </span></span><span data-offset-key="2c10k-0-6" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">39</span></span><span data-offset-key="2c10k-0-7"><span data-text="true">
+        </span></span><span data-offset-key="2c10k-0-8" style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">output</span></span><span data-offset-key="2c10k-0-9"><span data-text="true"> =
+        </span></span><span data-offset-key="2c10k-0-10"
+        style="font-family: monospace; overflow-wrap: break-word;"><span
+          data-text="true">nopqrstuvwxyzABCDEFGHIJKLM9012345678</span></span></div>
+  </div>
+</div>
