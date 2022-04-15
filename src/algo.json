@@ -52,10 +52,27 @@
       "name": "Minimum Length Substrings",
       "functionName": "minLengthSubstring",
       "args": {
-        "param1": "cdbefebce",
+        "param1": "cdbefedbce",
         "param2": "fd"
       },
       "template": "/src/files/min-length-substring.html"
+    },
+    {
+      "name": "172. Factorial Trailing Zeroes",
+      "functionName": "trailingZeroes",
+      "args": {
+        "param1": 5
+      },
+      "template": "/src/files/fact_trailing-zero.html"
+    },
+    {
+      "name": "50. Pow(x, n)",
+      "functionName": "myPow",
+      "args": {
+        "param1": 2,
+        "param2": -2
+      },
+      "template": "/src/files/my_pow.html"
     }
   ]
 }

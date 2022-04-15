@@ -25,41 +25,55 @@
 
 function minLengthSubstring(s, t) {
 
-  let minLen = Number.MAX_VALUE;
-  let charCount = t.length;
-  let minStartIndex = 0;
-  const charMap = new Map();
-  for (let char of t) {
-    charMap.set(char, ((charMap.get(char) || 0) + 1));
-  }
-  for (let l = 0, r = 0; r < s.length;) {
-    let charVal = charMap.get(s[r]);
-    if (charVal) {
-      charCount--;
-    }
-    charMap.set(s[r], charVal--);
-    r++;
+  const tMap = new Map();
+  const window = new Map();
 
-    while (charCount === 0) {
-      if ((r - l) < minLen) {
-        minLen = r - l;
-        minStartIndex = l;
+  for (const char of t) {
+    tMap.set(char, 1 + (tMap.get(char) || 0));
+  }
+
+  let have = 0;
+  let need = tMap.size;
+  let left = 0;
+  let right = 0;
+  let minWindow = '';
+
+  for (right; right < s.length; right++) {
+    const char = s[right]
+
+    // Add char to window if char exists in tMap
+    if (tMap.has(char)) {
+      window.set(char, 1 + (window.get(char) || 0));
+    }
+
+    // Increment the have counter if we have the required number of characters in our window
+    if (window.has(char) && tMap.get(char) === window.get(char)) {
+      have++;
+    }
+
+    while (have === need) {
+      // If our current window is smaller than the current smallest window, update our minWindow
+      if (!minWindow || (right - left + 1) < minWindow.length) {
+        minWindow = s.slice(left, right + 1)
       }
 
-      lVal = charMap.get(s[l]);
-      if (lVal) {
-        charMap.set(s[l], lVal++);
-        charCount++;
-        l++;
+      // If the letter we're about to remove causes us to no longer statisfy the count requirement, decrement have counter
+      if (tMap.get(s[left]) > (window.get(s[left]) - 1)) {
+        have--;
       }
+
+      // Decrement or delete left character from our window
+      window.get(s[left]) > 1 ? window.set(s[left], window.get(s[left]) - 1) : window.delete(s[left]);
+
+      // Move up the left pointer
+      left++;
     }
   }
-  return minLen === Number.MAX_VALUE ? -1 : (minLen + 1);
+
+  return minWindow.length === 0 ? -1 : minWindow.length;
 }
 
-// cdbefebce fd => 4
-// {
-//   "d": 1,
-//   "f": 1
-// }
-//
+// cdbefedbce fd => 4
+// 
+// ADOBECODEBANC ABC
+// [0,3,5,9,10,11]
