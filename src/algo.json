@@ -111,6 +111,14 @@
         ]
       },
       "template": "/src/files/longest-common-prefix.html"
+    },
+    {
+      "name": "151. Reverse Words in a String",
+      "functionName": "reverseWords",
+      "args": {
+        "param1": "the sky is blue"
+      },
+      "template": "/src/files/reverse-words.html"
     }
   ]
 }
