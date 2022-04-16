@@ -119,6 +119,14 @@
         "param1": "the sky is blue"
       },
       "template": "/src/files/reverse-words.html"
+    },
+    {
+      "name": "5. Longest Palindromic Substring",
+      "functionName": "longestPalindrome",
+      "args": {
+        "param1": "babad"
+      },
+      "template": "/src/files/longest-palindrome.html"
     }
   ]
 }
