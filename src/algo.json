@@ -1,5 +1,6 @@
 {
-  "results": [{
+  "results": [
+    {
       "name": "Rotational Cipher",
       "functionName": "rotationalCipher",
       "args": "Zebra-493,3",
@@ -9,7 +10,13 @@
       "name": "Contiguous Subarrays",
       "functionName": "countSubarrays",
       "args": {
-        "param1": [3, 4, 1, 6, 2]
+        "param1": [
+          3,
+          4,
+          1,
+          6,
+          2
+        ]
       },
       "template": "/src/files/contiguous-subarrays.html"
     },
@@ -17,7 +24,13 @@
       "name": "Pair Sums",
       "functionName": "pairSums",
       "args": {
-        "param1": [1, 5, 3, 3, 3],
+        "param1": [
+          1,
+          5,
+          3,
+          3,
+          3
+        ],
         "param2": 6
       },
       "template": "/src/files/pair-sums.html"
@@ -26,8 +39,18 @@
       "name": "Reverse to Make Equal",
       "functionName": "areTheyEqual",
       "args": {
-        "param1": [1, 2, 3, 4],
-        "param2": [1, 4, 3, 2]
+        "param1": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "param2": [
+          1,
+          4,
+          3,
+          2
+        ]
       },
       "template": "/src/files/rev-arr-equal.html"
     },
@@ -35,7 +58,10 @@
       "name": "Passing Yearbooks",
       "functionName": "findSignatureCounts",
       "args": {
-        "param1": [2, 1]
+        "param1": [
+          2,
+          1
+        ]
       },
       "template": "/src/files/passing-yearbooks.html"
     },
@@ -73,6 +99,18 @@
         "param2": -2
       },
       "template": "/src/files/my_pow.html"
+    },
+    {
+      "name": "14. Longest Common Prefix",
+      "functionName": "longestCommonPrefix",
+      "args": {
+        "param1": [
+          "flower",
+          "flow",
+          "flight"
+        ]
+      },
+      "template": "/src/files/longest-common-prefix.html"
     }
   ]
 }
