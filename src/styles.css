@@ -2,7 +2,7 @@
   width: 20%;
 }
 
-.container {
+.container-fluid {
   display: flex;
   justify-content: center;
 }
@@ -17,4 +17,12 @@
   flex-direction: column;
   padding: 5px;
   gap: 10px;
+}
+
+.btn__r7r7 {
+  display: none;
+}
+
+.css-q9155n {
+  display: none;
 }

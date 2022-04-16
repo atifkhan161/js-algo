@@ -1,8 +1,9 @@
 <!doctype html>
-<html>
+<html data-theme="light">
 
 <head>
-  <title>Javascript Data structure and algorightms</title>
+  <title>Javascript Data structures & Algorithms</title>
+  <link rel="stylesheet" href="/src/pico.min.css">
   <link rel="stylesheet" href="/src/styles.css">
   <script defer src="src/index.js" charset="utf-8"></script>
   <script defer src="src/files/rotational-cipher.js" charset="utf-8"></script>
@@ -20,18 +21,28 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="result-container">
+  <!-- Nav -->
+  <nav class="container-fluid">
+    <ul>
+      <li><a href="./" class="contrast" onclick="event.preventDefault()"><strong>Javascript Data structures & Algorithms</strong></a></li>
+    </ul>
+  </nav><!-- ./ Nav -->
+  <div class="container-fluid">
+    <div class="result-container grid">
       <ul id="results">
       </ul>
     </div>
-    <div id="description" class="description">
+    <div id="description" class="description grid">
     </div>
     <div id="btn">
-      <input type="text" id="params">
+      <textarea type="text" id="params" rows="4"></textarea>
       <button id="run">Run</button>
-      <span> Result :</span>
-      <span id="returnVal"></span>
+      <blockquote>
+        <span> Result :</span>
+        <footer>
+          <cite><span id="returnVal"></span></cite>
+        </footer>
+      </blockquote>
     </div>
   </div>
   <template id="algo-template">
