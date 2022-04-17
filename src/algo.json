@@ -127,6 +127,14 @@
         "param1": "babad"
       },
       "template": "/src/files/longest-palindrome.html"
+    },
+    {
+      "name": "3. Longest Substring Without Repeating Characters",
+      "functionName": "lengthOfLongestSubstring",
+      "args": {
+        "param1": "babad"
+      },
+      "template": "/src/files/length-of-longest-substring.html"
     }
   ]
 }
