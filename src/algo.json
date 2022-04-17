@@ -143,6 +143,14 @@
         "param1": "([])"
       },
       "template": "/src/files/has-valid-parentheses.html"
+    },
+    {
+      "name": "394. Decode String",
+      "functionName": "decodeString",
+      "args": {
+        "param1": "3[a]2[bc]"
+      },
+      "template": "/src/files/decode-string.html"
     }
   ]
 }
