@@ -135,6 +135,14 @@
         "param1": "babad"
       },
       "template": "/src/files/length-of-longest-substring.html"
+    },
+    {
+      "name": "20. Valid Parentheses",
+      "functionName": "hasValidParentheses",
+      "args": {
+        "param1": "([])"
+      },
+      "template": "/src/files/has-valid-parentheses.html"
     }
   ]
 }
