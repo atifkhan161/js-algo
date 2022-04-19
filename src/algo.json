@@ -151,6 +151,15 @@
         "param1": "3[a]2[bc]"
       },
       "template": "/src/files/decode-string.html"
+    },
+    {
+      "name": "139. Word Break",
+      "functionName": "wordBreak",
+      "args": {
+        "param1": "catsandog",
+        "param2": ["cats","dog","sand","and","cat"]
+      },
+      "template": "/src/files/word-break.html"
     }
   ]
 }
