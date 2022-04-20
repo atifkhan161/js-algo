@@ -160,6 +160,15 @@
         "param2": ["cats","dog","sand","and","cat"]
       },
       "template": "/src/files/word-break.html"
+    },
+    {
+      "name": "242. Valid Anagram",
+      "functionName": "isAnagram",
+      "args": {
+        "param1": "anagram",
+        "param2": "nagaram"
+      },
+      "template": "/src/files/is-anagram.html"
     }
   ]
 }

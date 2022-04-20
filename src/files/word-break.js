@@ -23,3 +23,4 @@ var wordBreak = function (s, wordDict) {
 };
 
 // "catsandog" ["cats","dog","sand","and","cat"]
+//  o(n^2)
