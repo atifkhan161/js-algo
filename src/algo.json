@@ -177,6 +177,14 @@
         "param1": "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
       },
       "template": "/src/files/find-repeateddna-sequences.html"
+    },
+    {
+      "name": "273. Integer to English Words",
+      "functionName": "numberToWords",
+      "args": {
+        "param1": 1234567
+      },
+      "template": "/src/files/number-to-words.html"
     }
   ]
 }
