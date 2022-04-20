@@ -31,3 +31,5 @@ function helper(n) {
         return twenty[Math.trunc(n / 100)] + " Hundred " + helper(n % 100);
     }
 };
+
+// O (Log N)
