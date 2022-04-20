@@ -169,6 +169,14 @@
         "param2": "nagaram"
       },
       "template": "/src/files/is-anagram.html"
+    },
+    {
+      "name": "187. Repeated DNA Sequences",
+      "functionName": "findRepeatedDnaSequences",
+      "args": {
+        "param1": "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+      },
+      "template": "/src/files/find-repeateddna-sequences.html"
     }
   ]
 }
