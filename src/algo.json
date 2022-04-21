@@ -213,6 +213,14 @@
         "param4": 3
       },
       "template": "/src/files/merge-sorted-array.html"
+    },
+    {
+      "name": "66. Plus One",
+      "functionName": "plusOne",
+      "args": {
+        "param1": [1,2,3]
+      },
+      "template": "/src/files/plus-one.html"
     }
   ]
 }
