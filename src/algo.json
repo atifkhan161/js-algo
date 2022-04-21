@@ -194,6 +194,14 @@
         "param2": 9
       },
       "template": "/src/files/two-sum.html"
+    },
+    {
+      "name": "75. Sort Colors",
+      "functionName": "sortColors",
+      "args": {
+        "param1": [2,0,2,1,1,0]
+      },
+      "template": "/src/files/sort-colors.html"
     }
   ]
 }
