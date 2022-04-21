@@ -185,6 +185,15 @@
         "param1": 1234567
       },
       "template": "/src/files/number-to-words.html"
+    },
+    {
+      "name": "1. Two Sum",
+      "functionName": "twoSum",
+      "args": {
+        "param1": [2,7,11,15],
+        "param2": 9
+      },
+      "template": "/src/files/two-sum.html"
     }
   ]
 }
