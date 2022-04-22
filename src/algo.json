@@ -221,6 +221,14 @@
         "param1": [1,2,3]
       },
       "template": "/src/files/plus-one.html"
+    },
+    {
+      "name": "55. Jump Game",
+      "functionName": "canJump",
+      "args": {
+        "param1": [3,2,1,0,4]
+      },
+      "template": "/src/files/can-jump.html"
     }
   ]
 }
